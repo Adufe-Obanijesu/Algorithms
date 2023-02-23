@@ -1,0 +1,35 @@
+function stringReversal(string) {
+    console.log(string.split("").reverse().join(""));
+}
+
+function _stringReversal(string) {
+    let stringArray = [...string];
+    let reversedString = "";
+    for(let i=0; i<stringArray.length; i++) {
+        reversedString = stringArray[i] + reversedString;
+    }
+
+    console.log(reversedString);
+}
+
+function __stringReversal(string) {
+    let stringArray = [...string];
+    let reversedString = [];
+    for(let i=stringArray.length; i>=0; i--) {
+        reversedString.push(stringArray[i]);
+    }
+    reversedString = reversedString.join("")
+    console.log(reversedString);
+}
+
+function ___stringReversal(string) {
+    let reversedString = "";
+    for(let character of string) reversedString = character + reversedString;
+
+    console.log(reversedString);
+}
+
+stringReversal("Hello world");
+_stringReversal("Hello world");
+__stringReversal("Hello world");
+___stringReversal("Hello world");
