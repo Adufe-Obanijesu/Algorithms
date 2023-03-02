@@ -1,4 +1,5 @@
 // Code to show the fibonacci sequence of a given number n
+
 function fibonacci(n) {
     let array = [];
     for(let i = 0; i<n; i++) {
@@ -16,8 +17,8 @@ function fibonacci(n) {
 
 // Big-O Notation -> O(n)
 
-fibonacci(5); // Result is [0,1,1,2,3]
-fibonacci(10); // Result is [0,1,1,2,3,5,8,13,21,34]
-fibonacci(1); // Result is [0]
-fibonacci(0); // Result is []
-fibonacci(2); // Result is [0,1]
+console.log(fibonacci(5)); // Result is [0,1,1,2,3]
+console.log(fibonacci(10)); // Result is [0,1,1,2,3,5,8,13,21,34]
+console.log(fibonacci(1)); // Result is [0]
+console.log(fibonacci(0)); // Result is []
+console.log(fibonacci(2)); // Result is [0,1]

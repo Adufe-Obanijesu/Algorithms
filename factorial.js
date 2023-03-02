@@ -10,5 +10,5 @@ function factorial(n) {
 
 // Big-O notation -> O(n);
 
-factorial(4) // Result 24
-factorial(6) // Result 720
+console.log(factorial(4)) // Result 24
+console.log(factorial(6)) // Result 720

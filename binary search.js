@@ -41,38 +41,9 @@ function binarySearchUsingRecursion(arr, target, leftIndex = 0, rightIndex = arr
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let array = [2,4,6,8,10,12,14];
-
-
-
-
-
-// binarySearch(array, 6);
-// binarySearch(array, 2);
-// binarySearch(array, 4);
-// binarySearch(array, 10);
-// binarySearch(array, 14);
-// binarySearch(array, 63);
-
-binarySearchUsingRecursion(array, 6);
-binarySearchUsingRecursion(array, 2);
-binarySearchUsingRecursion(array, 4);
-binarySearchUsingRecursion(array, 10);
-binarySearchUsingRecursion(array, 14);
-binarySearchUsingRecursion(array, 63);
+console.log(binarySearch(array, 6)); // response => 2
+console.log(binarySearch(array, 2)); // response => 0
+console.log(binarySearch(array, 4)); // response => 1
+console.log(binarySearchUsingRecursion(array, 10)); // response => 5
+console.log(binarySearchUsingRecursion(array, 14)); // response => 6
+console.log(binarySearchUsingRecursion(array, 63)); // response => -1

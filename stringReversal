@@ -1,5 +1,5 @@
 function stringReversal(string) {
-    console.log(string.split("").reverse().join(""));
+    return string.split("").reverse().join("");
 }
 
 function _stringReversal(string) {
@@ -8,8 +8,7 @@ function _stringReversal(string) {
     for(let i=0; i<stringArray.length; i++) {
         reversedString = stringArray[i] + reversedString;
     }
-
-    console.log(reversedString);
+    return reversedString;
 }
 
 function __stringReversal(string) {
@@ -18,15 +17,14 @@ function __stringReversal(string) {
     for(let i=stringArray.length; i>=0; i--) {
         reversedString.push(stringArray[i]);
     }
-    reversedString = reversedString.join("")
-    console.log(reversedString);
+    reversedString = reversedString.join("");
+    return reversedString;
 }
 
 function ___stringReversal(string) {
     let reversedString = "";
     for(let character of string) reversedString = character + reversedString;
-
-    console.log(reversedString);
+    return reversedString;
 }
 
 stringReversal("Hello world");
